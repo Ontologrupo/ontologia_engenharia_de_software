@@ -1,0 +1,2248 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mario/ontologies/2015/9/untitled-ontology-6"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/mario/ontologies/2015/9/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Adaptabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Análise_da_mudança_e_estimativa_de_custo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Análise_do_problema_e_especificação_da_mudança"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apoio_de_ferramentas_CASE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artefatos_de_Requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atividades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cadastro_dos_Requisitos_do_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caracterisrticas_desejáveis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Característica_dos_usuários"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caso_de_Uso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cenários"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classes_persistentes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classificação_dos_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cliente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dados_persistentes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Definição_do_escopo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Definição_dos_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Definições_e_Siglas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descrição_Geral_do_Produto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desempenho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desenvolvedor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detalhamento_dos_requisitos_de_interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detalhamento_dos_requisitos_funcionais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detalhamento_dos_requisitos_não_funcionais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Determinação_do_contexto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engenharia_de_Requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entrevista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entrevista_aberta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entrevista_fechada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipe_do_Projeto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escopo_do_Produto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especificações_matemáticas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estudo_de_Viabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etnografia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facilidade_de_Compreensão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facilidade_de_verificação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fechamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Funções_do_produto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geração_de_casos_de_teste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gerenciamento_de_Requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gerente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hipóteses_de_Trabalho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identificação_de_Requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Implementação_da_mudança"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informação_de_Suporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informações_de_rastreabilidade_da_origem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informações_de_rastreabilidade_de_projeto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informações_de_rastreabilidade_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Introdução"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linguagem_Natural_estruturada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linguagem_de_descrição_de_Projeto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materiais_de_Referência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modelo_de_Análise_do_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notações_gráficas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objetivos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oficinas_de_Requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patrocinador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personalização"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perspectiva_do_Produto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Políticas_de_Rastreabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ponto_de_vista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proposta_de_Especificação_do_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prototipação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protótipo_Descartável"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protótipo_Evolucionário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protótipos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rastreabilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito_Funcional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito_de_Domínio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito_de_Sistema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito_de_Usuário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisito_não_Funcional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requisitos_Específicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restrições"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Revisão_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sessões"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stakeholders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Técnicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Validação_de_Requisitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visão_Geral_deste_Documento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atuaSobre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#avalia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#colabora"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#coopera"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehAvaliadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehColaboradoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehCooperadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehExecutadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehFeitoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehFormaDeComunicacao"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehOperadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehProduzidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehUtilizadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#executa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#faz"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gera"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#operaSobre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pertenceA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possui"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produz"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realiza"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seComunicaPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utiliza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gerenciamento_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adaptabilidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#analise_da_mudanca_e_estimativa_de_custo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#analise_do_problema_e_especificacao_da_mudanca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anlista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#apoio_de_ferramentas_case"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#artefatos_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#atividades"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cadastro_dos_requisitos_do_software"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#caracteristica_dos_usuarios"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#caracteristicas_desejaveis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#caso_de_uso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cenarios"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#classes_persistentes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#classificacao_dos_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cliente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coleta_e_analise_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dados_persistentes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#definicao_dos_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#definicao_escopo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#definicoes_e_siglas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#descricao_geral_do_produto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#desempenho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#desenvolvedor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#detalahamento_dos_requisitos_de_interface"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_funcionais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_nao_funcionais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#determinacao_do_contexto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#entrevista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#entrevista_aberta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#entrevista_fechada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#escopo_do_produto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#especificacao_dos_requisitos_do_sofwtare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#especificacoes_matematicas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#estudo_de_viabilidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#etnografia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#facilidade_de_compreensao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#facilidade_de_verificacao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fechamento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#funcoes_do_produto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#geracao_de_casos_de_teste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gerente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hipoteses_de_trabalho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#identificacao_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#implementacao_da_mudanca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#informacao_de_suporte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#informacoes_de_rastreabilidade_de_projeto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#informacoes_de_rastreabilidade_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#informacoes_de_restreabilidade_da_origem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#introducao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#linguagem_de_descricao_de_projeto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#linguagem_natural_estruturada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#materiais_de_referencia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#modelo_de_analise_do_software"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#notacoes_graficas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#notacoes_para_especificacao_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#objetivos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oficinas_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patrocinador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#personalizacao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perspectiva_do_produto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#planejamento_de_gerenciamento_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#politicas_de_rastreabilidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ponto_de_vista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#processo_de_gerenciamento_de_mudancas_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#proposta_de_especificacao_do_software"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prototipacao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prototipo_descartavel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prototipo_evolucionario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prototipos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rastreabilidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requisito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requisito_de_dominio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requisito_de_sistema"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requisito_de_usuario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requisito_funcional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requisito_nao_funcional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requisitos_especificos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#restricoes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#revisao_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#revisao_dos_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sessoes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stakeholders"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tecnicas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#validacao_de_requisitos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#visao_geral_deste_documento"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adaptabilidade"/>
+        <Class IRI="#Caracterisrticas_desejáveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analista"/>
+        <Class IRI="#Equipe_do_Projeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Análise_da_mudança_e_estimativa_de_custo"/>
+        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Análise_do_problema_e_especificação_da_mudança"/>
+        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apoio_de_ferramentas_CASE"/>
+        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artefatos_de_Requisitos"/>
+        <Class IRI="#Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atividades"/>
+        <Class IRI="#Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cadastro_dos_Requisitos_do_Software"/>
+        <Class IRI="#Artefatos_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <Class IRI="#Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Característica_dos_usuários"/>
+        <Class IRI="#Descrição_Geral_do_Produto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caso_de_Uso"/>
+        <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cenários"/>
+        <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classes_persistentes"/>
+        <Class IRI="#Requisito_não_Funcional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classificação_dos_requisitos"/>
+        <Class IRI="#Atividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cliente"/>
+        <Class IRI="#Stakeholders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+        <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dados_persistentes"/>
+        <Class IRI="#Requisito_não_Funcional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Definição_do_escopo"/>
+        <Class IRI="#Atividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Definição_dos_requisitos"/>
+        <Class IRI="#Atividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Definições_e_Siglas"/>
+        <Class IRI="#Introdução"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Descrição_Geral_do_Produto"/>
+        <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desempenho"/>
+        <Class IRI="#Requisito_não_Funcional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desenvolvedor"/>
+        <Class IRI="#Equipe_do_Projeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Detalhamento_dos_requisitos_de_interface"/>
+        <Class IRI="#Atividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Detalhamento_dos_requisitos_funcionais"/>
+        <Class IRI="#Atividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Detalhamento_dos_requisitos_não_funcionais"/>
+        <Class IRI="#Atividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Determinação_do_contexto"/>
+        <Class IRI="#Atividades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engenharia_de_Requisitos"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entrevista"/>
+        <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entrevista_aberta"/>
+        <Class IRI="#Entrevista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Entrevista_fechada"/>
+        <Class IRI="#Entrevista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipe_do_Projeto"/>
+        <Class IRI="#Stakeholders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Escopo_do_Produto"/>
+        <Class IRI="#Introdução"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
+        <Class IRI="#Artefatos_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Especificações_matemáticas"/>
+        <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estudo_de_Viabilidade"/>
+        <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etnografia"/>
+        <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facilidade_de_Compreensão"/>
+        <Class IRI="#Caracterisrticas_desejáveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facilidade_de_verificação"/>
+        <Class IRI="#Caracterisrticas_desejáveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fechamento"/>
+        <Class IRI="#Oficinas_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Funções_do_produto"/>
+        <Class IRI="#Descrição_Geral_do_Produto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geração_de_casos_de_teste"/>
+        <Class IRI="#Validação_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gerenciamento_de_Requisitos"/>
+        <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gerente"/>
+        <Class IRI="#Equipe_do_Projeto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hipóteses_de_Trabalho"/>
+        <Class IRI="#Descrição_Geral_do_Produto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identificação_de_Requisitos"/>
+        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Implementação_da_mudança"/>
+        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informação_de_Suporte"/>
+        <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informações_de_rastreabilidade_da_origem"/>
+        <Class IRI="#Políticas_de_Rastreabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informações_de_rastreabilidade_de_projeto"/>
+        <Class IRI="#Políticas_de_Rastreabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informações_de_rastreabilidade_de_requisitos"/>
+        <Class IRI="#Políticas_de_Rastreabilidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Introdução"/>
+        <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linguagem_Natural_estruturada"/>
+        <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linguagem_de_descrição_de_Projeto"/>
+        <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Materiais_de_Referência"/>
+        <Class IRI="#Introdução"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modelo_de_Análise_do_Software"/>
+        <Class IRI="#Artefatos_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notações_gráficas"/>
+        <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
+        <Class IRI="#Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objetivos"/>
+        <Class IRI="#Introdução"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oficinas_de_Requisitos"/>
+        <Class IRI="#Técnicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patrocinador"/>
+        <Class IRI="#Stakeholders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personalização"/>
+        <Class IRI="#Oficinas_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perspectiva_do_Produto"/>
+        <Class IRI="#Descrição_Geral_do_Produto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+        <Class IRI="#Gerenciamento_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Políticas_de_Rastreabilidade"/>
+        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ponto_de_vista"/>
+        <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+        <Class IRI="#Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proposta_de_Especificação_do_Software"/>
+        <Class IRI="#Artefatos_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototipação"/>
+        <Class IRI="#Validação_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protótipo_Descartável"/>
+        <Class IRI="#Protótipos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protótipo_Evolucionário"/>
+        <Class IRI="#Protótipos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protótipos"/>
+        <Class IRI="#Técnicas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rastreabilidade"/>
+        <Class IRI="#Caracterisrticas_desejáveis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito"/>
+        <Class IRI="#Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_Funcional"/>
+        <Class IRI="#Requisito_de_Sistema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_de_Domínio"/>
+        <Class IRI="#Requisito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_de_Sistema"/>
+        <Class IRI="#Requisito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_de_Usuário"/>
+        <Class IRI="#Requisito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_não_Funcional"/>
+        <Class IRI="#Requisito_de_Sistema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisitos_Específicos"/>
+        <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restrições"/>
+        <Class IRI="#Descrição_Geral_do_Produto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Revisão_de_requisitos"/>
+        <Class IRI="#Validação_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sessões"/>
+        <Class IRI="#Oficinas_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stakeholders"/>
+        <Class IRI="#Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Técnicas"/>
+        <Class IRI="#Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validação_de_Requisitos"/>
+        <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visão_Geral_deste_Documento"/>
+        <Class IRI="#Introdução"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Adaptabilidade"/>
+        <Class IRI="#Facilidade_de_Compreensão"/>
+        <Class IRI="#Facilidade_de_verificação"/>
+        <Class IRI="#Rastreabilidade"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Análise_da_mudança_e_estimativa_de_custo"/>
+        <Class IRI="#Análise_do_problema_e_especificação_da_mudança"/>
+        <Class IRI="#Implementação_da_mudança"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Apoio_de_ferramentas_CASE"/>
+        <Class IRI="#Identificação_de_Requisitos"/>
+        <Class IRI="#Políticas_de_Rastreabilidade"/>
+        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Artefatos_de_Requisitos"/>
+        <Class IRI="#Atividades"/>
+        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
+        <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+        <Class IRI="#Requisito"/>
+        <Class IRI="#Stakeholders"/>
+        <Class IRI="#Técnicas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cadastro_dos_Requisitos_do_Software"/>
+        <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
+        <Class IRI="#Modelo_de_Análise_do_Software"/>
+        <Class IRI="#Proposta_de_Especificação_do_Software"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Característica_dos_usuários"/>
+        <Class IRI="#Funções_do_produto"/>
+        <Class IRI="#Hipóteses_de_Trabalho"/>
+        <Class IRI="#Perspectiva_do_Produto"/>
+        <Class IRI="#Restrições"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Caso_de_Uso"/>
+        <Class IRI="#Cenários"/>
+        <Class IRI="#Entrevista"/>
+        <Class IRI="#Etnografia"/>
+        <Class IRI="#Ponto_de_vista"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Classes_persistentes"/>
+        <Class IRI="#Dados_persistentes"/>
+        <Class IRI="#Desempenho"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cliente"/>
+        <Class IRI="#Equipe_do_Projeto"/>
+        <Class IRI="#Patrocinador"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+        <Class IRI="#Estudo_de_Viabilidade"/>
+        <Class IRI="#Gerenciamento_de_Requisitos"/>
+        <Class IRI="#Validação_de_Requisitos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Definições_e_Siglas"/>
+        <Class IRI="#Escopo_do_Produto"/>
+        <Class IRI="#Materiais_de_Referência"/>
+        <Class IRI="#Objetivos"/>
+        <Class IRI="#Visão_Geral_deste_Documento"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Descrição_Geral_do_Produto"/>
+        <Class IRI="#Informação_de_Suporte"/>
+        <Class IRI="#Introdução"/>
+        <Class IRI="#Requisitos_Específicos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Entrevista_aberta"/>
+        <Class IRI="#Entrevista_fechada"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Especificações_matemáticas"/>
+        <Class IRI="#Linguagem_Natural_estruturada"/>
+        <Class IRI="#Linguagem_de_descrição_de_Projeto"/>
+        <Class IRI="#Notações_gráficas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fechamento"/>
+        <Class IRI="#Personalização"/>
+        <Class IRI="#Sessões"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Geração_de_casos_de_teste"/>
+        <Class IRI="#Prototipação"/>
+        <Class IRI="#Revisão_de_requisitos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Informações_de_rastreabilidade_da_origem"/>
+        <Class IRI="#Informações_de_rastreabilidade_de_projeto"/>
+        <Class IRI="#Informações_de_rastreabilidade_de_requisitos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Oficinas_de_Requisitos"/>
+        <Class IRI="#Protótipos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Protótipo_Descartável"/>
+        <Class IRI="#Protótipo_Evolucionário"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Requisito_Funcional"/>
+        <Class IRI="#Requisito_não_Funcional"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Requisito_de_Domínio"/>
+        <Class IRI="#Requisito_de_Sistema"/>
+        <Class IRI="#Requisito_de_Usuário"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Gerenciamento_de_Requisitos"/>
+        <NamedIndividual IRI="#Gerenciamento_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adaptabilidade"/>
+        <NamedIndividual IRI="#adaptabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Análise_da_mudança_e_estimativa_de_custo"/>
+        <NamedIndividual IRI="#analise_da_mudanca_e_estimativa_de_custo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Análise_do_problema_e_especificação_da_mudança"/>
+        <NamedIndividual IRI="#analise_do_problema_e_especificacao_da_mudanca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analista"/>
+        <NamedIndividual IRI="#anlista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apoio_de_ferramentas_CASE"/>
+        <NamedIndividual IRI="#apoio_de_ferramentas_case"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Artefatos_de_Requisitos"/>
+        <NamedIndividual IRI="#artefatos_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atividades"/>
+        <NamedIndividual IRI="#atividades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cadastro_dos_Requisitos_do_Software"/>
+        <NamedIndividual IRI="#cadastro_dos_requisitos_do_software"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Característica_dos_usuários"/>
+        <NamedIndividual IRI="#caracteristica_dos_usuarios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <NamedIndividual IRI="#caracteristicas_desejaveis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caso_de_Uso"/>
+        <NamedIndividual IRI="#caso_de_uso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cenários"/>
+        <NamedIndividual IRI="#cenarios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Classes_persistentes"/>
+        <NamedIndividual IRI="#classes_persistentes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Classificação_dos_requisitos"/>
+        <NamedIndividual IRI="#classificacao_dos_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cliente"/>
+        <NamedIndividual IRI="#cliente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+        <NamedIndividual IRI="#coleta_e_analise_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dados_persistentes"/>
+        <NamedIndividual IRI="#dados_persistentes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Definição_dos_requisitos"/>
+        <NamedIndividual IRI="#definicao_dos_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Definição_do_escopo"/>
+        <NamedIndividual IRI="#definicao_escopo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Definições_e_Siglas"/>
+        <NamedIndividual IRI="#definicoes_e_siglas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Descrição_Geral_do_Produto"/>
+        <NamedIndividual IRI="#descricao_geral_do_produto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desempenho"/>
+        <NamedIndividual IRI="#desempenho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desenvolvedor"/>
+        <NamedIndividual IRI="#desenvolvedor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detalhamento_dos_requisitos_de_interface"/>
+        <NamedIndividual IRI="#detalahamento_dos_requisitos_de_interface"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detalhamento_dos_requisitos_funcionais"/>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_funcionais"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Detalhamento_dos_requisitos_não_funcionais"/>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_nao_funcionais"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Determinação_do_contexto"/>
+        <NamedIndividual IRI="#determinacao_do_contexto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Entrevista"/>
+        <NamedIndividual IRI="#entrevista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Entrevista_aberta"/>
+        <NamedIndividual IRI="#entrevista_aberta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Entrevista_fechada"/>
+        <NamedIndividual IRI="#entrevista_fechada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Equipe_do_Projeto"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Escopo_do_Produto"/>
+        <NamedIndividual IRI="#escopo_do_produto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
+        <NamedIndividual IRI="#especificacao_dos_requisitos_do_sofwtare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especificações_matemáticas"/>
+        <NamedIndividual IRI="#especificacoes_matematicas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Estudo_de_Viabilidade"/>
+        <NamedIndividual IRI="#estudo_de_viabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Etnografia"/>
+        <NamedIndividual IRI="#etnografia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facilidade_de_Compreensão"/>
+        <NamedIndividual IRI="#facilidade_de_compreensao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facilidade_de_verificação"/>
+        <NamedIndividual IRI="#facilidade_de_verificacao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fechamento"/>
+        <NamedIndividual IRI="#fechamento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Funções_do_produto"/>
+        <NamedIndividual IRI="#funcoes_do_produto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Geração_de_casos_de_teste"/>
+        <NamedIndividual IRI="#geracao_de_casos_de_teste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gerente"/>
+        <NamedIndividual IRI="#gerente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hipóteses_de_Trabalho"/>
+        <NamedIndividual IRI="#hipoteses_de_trabalho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Identificação_de_Requisitos"/>
+        <NamedIndividual IRI="#identificacao_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Implementação_da_mudança"/>
+        <NamedIndividual IRI="#implementacao_da_mudanca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Informação_de_Suporte"/>
+        <NamedIndividual IRI="#informacao_de_suporte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Informações_de_rastreabilidade_de_projeto"/>
+        <NamedIndividual IRI="#informacoes_de_rastreabilidade_de_projeto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Informações_de_rastreabilidade_de_requisitos"/>
+        <NamedIndividual IRI="#informacoes_de_rastreabilidade_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Informações_de_rastreabilidade_da_origem"/>
+        <NamedIndividual IRI="#informacoes_de_restreabilidade_da_origem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Introdução"/>
+        <NamedIndividual IRI="#introducao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_de_descrição_de_Projeto"/>
+        <NamedIndividual IRI="#linguagem_de_descricao_de_projeto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Linguagem_Natural_estruturada"/>
+        <NamedIndividual IRI="#linguagem_natural_estruturada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Materiais_de_Referência"/>
+        <NamedIndividual IRI="#materiais_de_referencia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Modelo_de_Análise_do_Software"/>
+        <NamedIndividual IRI="#modelo_de_analise_do_software"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notações_gráficas"/>
+        <NamedIndividual IRI="#notacoes_graficas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
+        <NamedIndividual IRI="#notacoes_para_especificacao_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objetivos"/>
+        <NamedIndividual IRI="#objetivos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Oficinas_de_Requisitos"/>
+        <NamedIndividual IRI="#oficinas_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patrocinador"/>
+        <NamedIndividual IRI="#patrocinador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personalização"/>
+        <NamedIndividual IRI="#personalizacao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perspectiva_do_Produto"/>
+        <NamedIndividual IRI="#perspectiva_do_produto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+        <NamedIndividual IRI="#planejamento_de_gerenciamento_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Políticas_de_Rastreabilidade"/>
+        <NamedIndividual IRI="#politicas_de_rastreabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ponto_de_vista"/>
+        <NamedIndividual IRI="#ponto_de_vista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+        <NamedIndividual IRI="#processo_de_gerenciamento_de_mudancas_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+        <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proposta_de_Especificação_do_Software"/>
+        <NamedIndividual IRI="#proposta_de_especificacao_do_software"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Prototipação"/>
+        <NamedIndividual IRI="#prototipacao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Protótipo_Descartável"/>
+        <NamedIndividual IRI="#prototipo_descartavel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Protótipo_Evolucionário"/>
+        <NamedIndividual IRI="#prototipo_evolucionario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Protótipos"/>
+        <NamedIndividual IRI="#prototipos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rastreabilidade"/>
+        <NamedIndividual IRI="#rastreabilidade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito"/>
+        <NamedIndividual IRI="#requisito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_de_Domínio"/>
+        <NamedIndividual IRI="#requisito_de_dominio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_de_Sistema"/>
+        <NamedIndividual IRI="#requisito_de_sistema"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_de_Usuário"/>
+        <NamedIndividual IRI="#requisito_de_usuario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_Funcional"/>
+        <NamedIndividual IRI="#requisito_funcional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisito_não_Funcional"/>
+        <NamedIndividual IRI="#requisito_nao_funcional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requisitos_Específicos"/>
+        <NamedIndividual IRI="#requisitos_especificos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restrições"/>
+        <NamedIndividual IRI="#restricoes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Revisão_de_requisitos"/>
+        <NamedIndividual IRI="#revisao_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sessões"/>
+        <NamedIndividual IRI="#sessoes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholders"/>
+        <NamedIndividual IRI="#stakeholders"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Técnicas"/>
+        <NamedIndividual IRI="#tecnicas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Validação_de_Requisitos"/>
+        <NamedIndividual IRI="#validacao_de_requisitos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visão_Geral_deste_Documento"/>
+        <NamedIndividual IRI="#visao_geral_deste_documento"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <NamedIndividual IRI="#atividades"/>
+        <NamedIndividual IRI="#requisito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pertenceA"/>
+        <NamedIndividual IRI="#caracteristicas_desejaveis"/>
+        <NamedIndividual IRI="#requisito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#avalia"/>
+        <NamedIndividual IRI="#cliente"/>
+        <NamedIndividual IRI="#revisao_de_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#coopera"/>
+        <NamedIndividual IRI="#cliente"/>
+        <NamedIndividual IRI="#atividades"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#coopera"/>
+        <NamedIndividual IRI="#cliente"/>
+        <NamedIndividual IRI="#coleta_e_analise_de_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#coopera"/>
+        <NamedIndividual IRI="#cliente"/>
+        <NamedIndividual IRI="#determinacao_do_contexto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#faz"/>
+        <NamedIndividual IRI="#cliente"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehCooperadoPor"/>
+        <NamedIndividual IRI="#coleta_e_analise_de_requisitos"/>
+        <NamedIndividual IRI="#cliente"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehFeitoPor"/>
+        <NamedIndividual IRI="#coleta_e_analise_de_requisitos"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#gera"/>
+        <NamedIndividual IRI="#definicao_dos_requisitos"/>
+        <NamedIndividual IRI="#requisito_funcional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehColaboradoPor"/>
+        <NamedIndividual IRI="#determinacao_do_contexto"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehCooperadoPor"/>
+        <NamedIndividual IRI="#determinacao_do_contexto"/>
+        <NamedIndividual IRI="#cliente"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#colabora"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#determinacao_do_contexto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#colabora"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#revisao_de_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#executa"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produz"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#artefatos_de_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehExecutadoPor"/>
+        <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#operaSobre"/>
+        <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
+        <NamedIndividual IRI="#requisito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <NamedIndividual IRI="#requisito"/>
+        <NamedIndividual IRI="#atividades"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehOperadoPor"/>
+        <NamedIndividual IRI="#requisito"/>
+        <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possui"/>
+        <NamedIndividual IRI="#requisito"/>
+        <NamedIndividual IRI="#caracteristicas_desejaveis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+        <NamedIndividual IRI="#requisito_funcional"/>
+        <NamedIndividual IRI="#definicao_dos_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehAvaliadoPor"/>
+        <NamedIndividual IRI="#revisao_de_requisitos"/>
+        <NamedIndividual IRI="#cliente"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehColaboradoPor"/>
+        <NamedIndividual IRI="#revisao_de_requisitos"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehAvaliadoPor"/>
+        <NamedIndividual IRI="#revisao_dos_requisitos"/>
+        <NamedIndividual IRI="#cliente"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehColaboradoPor"/>
+        <NamedIndividual IRI="#revisao_dos_requisitos"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#avalia"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#colabora"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#coopera"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehAvaliadoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehColaboradoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehCooperadoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehExecutadoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehFeitoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehFormaDeComunicacao"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehOperadoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehProduzidoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ehUtilizadoPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#executa"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#faz"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#gera"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#operaSobre"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#pertenceA"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#possui"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#produz"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#realiza"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#seComunicaPor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#utiliza"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#avalia"/>
+        <ObjectProperty IRI="#ehAvaliadoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#colabora"/>
+        <ObjectProperty IRI="#ehColaboradoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ehCooperadoPor"/>
+        <ObjectProperty IRI="#coopera"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#executa"/>
+        <ObjectProperty IRI="#ehExecutadoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#faz"/>
+        <ObjectProperty IRI="#ehFeitoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ehFormaDeComunicacao"/>
+        <ObjectProperty IRI="#seComunicaPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+        <ObjectProperty IRI="#gera"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ehOperadoPor"/>
+        <ObjectProperty IRI="#operaSobre"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ehProduzidoPor"/>
+        <ObjectProperty IRI="#produz"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#realiza"/>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#utiliza"/>
+        <ObjectProperty IRI="#ehUtilizadoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#possui"/>
+        <ObjectProperty IRI="#pertenceA"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atuaSobre"/>
+            <Class IRI="#Atividades"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#avalia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#avalia"/>
+            <Class IRI="#Cliente"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#colabora"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#colabora"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#coopera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#coopera"/>
+            <Class IRI="#Cliente"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehColaboradoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehColaboradoPor"/>
+            <Class IRI="#Determinação_do_contexto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehCooperadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehCooperadoPor"/>
+            <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehCooperadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehCooperadoPor"/>
+            <Class IRI="#Determinação_do_contexto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehExecutadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehExecutadoPor"/>
+            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehFeitoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehFeitoPor"/>
+            <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehFormaDeComunicacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Linguagem_Natural_estruturada"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehGeradoPor"/>
+            <Class IRI="#Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehModificadoPor"/>
+            <Class IRI="#Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehOperadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehOperadoPor"/>
+            <Class IRI="#Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehProduzidoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehProduzidoPor"/>
+            <Class IRI="#Artefatos_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Classificação_dos_requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Definição_do_escopo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Definição_dos_requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Detalhamento_dos_requisitos_de_interface"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Detalhamento_dos_requisitos_funcionais"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Detalhamento_dos_requisitos_não_funcionais"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehUtilizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehUtilizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Técnicas"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#executa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#executa"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#faz"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#faz"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#gera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#gera"/>
+            <Class IRI="#Definição_do_escopo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#gera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#gera"/>
+            <Class IRI="#Definição_dos_requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#gera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#gera"/>
+            <Class IRI="#Determinação_do_contexto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#operaSobre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#operaSobre"/>
+            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pertenceA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#pertenceA"/>
+            <Class IRI="#Caracterisrticas_desejáveis"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possui"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#possui"/>
+            <Class IRI="#Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produz"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#produz"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realiza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realiza"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seComunicaPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Cliente"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seComunicaPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Patrocinador"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utiliza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#utiliza"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utiliza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#utiliza"/>
+            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atuaSobre"/>
+            <Class IRI="#Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#colabora"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#colabora"/>
+            <Class IRI="#Atividades"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#coopera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#coopera"/>
+            <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#coopera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#coopera"/>
+            <Class IRI="#Determinação_do_contexto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehAvaliadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehAvaliadoPor"/>
+            <Class IRI="#Cliente"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehColaboradoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehColaboradoPor"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehCooperadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehCooperadoPor"/>
+            <Class IRI="#Cliente"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehExecutadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehExecutadoPor"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehFeitoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehFeitoPor"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehFormaDeComunicacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Cliente"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehFormaDeComunicacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Patrocinador"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehGeradoPor"/>
+            <Class IRI="#Definição_do_escopo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehGeradoPor"/>
+            <Class IRI="#Definição_dos_requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehGeradoPor"/>
+            <Class IRI="#Determinação_do_contexto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehModificadoPor"/>
+            <Class IRI="#Atividades"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehOperadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehOperadoPor"/>
+            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehProduzidoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehProduzidoPor"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehRealizadoPor"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehUtilizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Equipe_do_Projeto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehUtilizadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#executa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#executa"/>
+            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#faz"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#faz"/>
+            <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#gera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#gera"/>
+            <Class IRI="#Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#operaSobre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#operaSobre"/>
+            <Class IRI="#Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pertenceA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#pertenceA"/>
+            <Class IRI="#Requisito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possui"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#possui"/>
+            <Class IRI="#Caracterisrticas_desejáveis"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produz"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#produz"/>
+            <Class IRI="#Artefatos_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realiza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realiza"/>
+            <Class IRI="#Classificação_dos_requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realiza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realiza"/>
+            <Class IRI="#Definição_do_escopo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realiza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realiza"/>
+            <Class IRI="#Definição_dos_requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realiza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realiza"/>
+            <Class IRI="#Detalhamento_dos_requisitos_de_interface"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realiza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realiza"/>
+            <Class IRI="#Detalhamento_dos_requisitos_funcionais"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realiza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realiza"/>
+            <Class IRI="#Detalhamento_dos_requisitos_não_funcionais"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seComunicaPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehUtilizadoPor"/>
+            <Class IRI="#Linguagem_Natural_estruturada"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utiliza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#utiliza"/>
+            <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utiliza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#utiliza"/>
+            <Class IRI="#Técnicas"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Engenharia_de_Requisitos</IRI>
+        <Literal xml:lang="pt" datatypeIRI="&rdf;PlainLiteral">Engenharia de Requisitos</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
