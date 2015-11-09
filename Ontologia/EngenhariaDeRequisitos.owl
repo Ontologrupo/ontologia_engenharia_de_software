@@ -682,7 +682,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cliente"/>
-        <Class IRI="#Equipe_do_Projeto"/>
+        <Class IRI="#Stakeholders"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
