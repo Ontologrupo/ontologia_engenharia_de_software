@@ -28,13 +28,13 @@
         <Class IRI="#Analista"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Análise_da_mudança_e_estimativa_de_custo"/>
+        <Class IRI="#Análise_da_Mudança_e_Estimativa_de_Custo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Análise_do_problema_e_especificação_da_mudança"/>
+        <Class IRI="#Análise_do_Problema_e_Especificação_da_Mudança"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Apoio_de_ferramentas_CASE"/>
+        <Class IRI="#Apoio_de_Ferramentas_CASE"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Artefatos_de_Requisitos"/>
@@ -46,10 +46,10 @@
         <Class IRI="#Cadastro_dos_Requisitos_do_Software"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <Class IRI="#Caracterisrticas_Desejáveis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Característica_dos_usuários"/>
+        <Class IRI="#Característica_dos_Usuários"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Caso_de_Uso"/>
@@ -58,10 +58,10 @@
         <Class IRI="#Cenários"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Classes_persistentes"/>
+        <Class IRI="#Classes_Persistentes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Classificação_dos_requisitos"/>
+        <Class IRI="#Classificação_dos_Requisitos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cliente"/>
@@ -70,13 +70,13 @@
         <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dados_persistentes"/>
+        <Class IRI="#Dados_Persistentes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Definição_do_escopo"/>
+        <Class IRI="#Definição_do_Escopo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Definição_dos_requisitos"/>
+        <Class IRI="#Definição_dos_Requisitos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Definições_e_Siglas"/>
@@ -91,16 +91,16 @@
         <Class IRI="#Desenvolvedor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Detalhamento_dos_requisitos_de_interface"/>
+        <Class IRI="#Detalhamento_dos_Requisitos_Funcionais"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Detalhamento_dos_requisitos_funcionais"/>
+        <Class IRI="#Detalhamento_dos_Requisitos_Não_Funcionais"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Detalhamento_dos_requisitos_não_funcionais"/>
+        <Class IRI="#Detalhamento_dos_Requisitos_de_Interface"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Determinação_do_contexto"/>
+        <Class IRI="#Determinação_do_Contexto"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Engenharia_de_Requisitos"/>
@@ -109,10 +109,10 @@
         <Class IRI="#Entrevista"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Entrevista_aberta"/>
+        <Class IRI="#Entrevista_Aberta"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Entrevista_fechada"/>
+        <Class IRI="#Entrevista_Fechada"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Equipe_do_Projeto"/>
@@ -124,7 +124,7 @@
         <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Especificações_matemáticas"/>
+        <Class IRI="#Especificações_Matemáticas"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Estudo_de_Viabilidade"/>
@@ -136,16 +136,16 @@
         <Class IRI="#Facilidade_de_Compreensão"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Facilidade_de_verificação"/>
+        <Class IRI="#Facilidade_de_Verificação"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fechamento"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Funções_do_produto"/>
+        <Class IRI="#Funções_do_Produto"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Geração_de_casos_de_teste"/>
+        <Class IRI="#Geração_de_Casos_de_Teste"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Gerenciamento_de_Requisitos"/>
@@ -160,28 +160,28 @@
         <Class IRI="#Identificação_de_Requisitos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Implementação_da_mudança"/>
+        <Class IRI="#Implementação_da_Mudança"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Informação_de_Suporte"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Informações_de_rastreabilidade_da_origem"/>
+        <Class IRI="#Informações_de_Rastreabilidade_da_Origem"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Informações_de_rastreabilidade_de_projeto"/>
+        <Class IRI="#Informações_de_Rastreabilidade_de_Projeto"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Informações_de_rastreabilidade_de_requisitos"/>
+        <Class IRI="#Informações_de_Rastreabilidade_de_Requisitos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Introdução"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Linguagem_Natural_estruturada"/>
+        <Class IRI="#Linguagem_Natural_Estruturada"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Linguagem_de_descrição_de_Projeto"/>
+        <Class IRI="#Linguagem_de_Descrição_de_Projeto"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Materiais_de_Referência"/>
@@ -190,7 +190,7 @@
         <Class IRI="#Modelo_de_Análise_do_Software"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Notações_gráficas"/>
+        <Class IRI="#Notações_Gráficas"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
@@ -211,16 +211,16 @@
         <Class IRI="#Perspectiva_do_Produto"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+        <Class IRI="#Planejamento_de_Gerenciamento_de_Requisitos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Políticas_de_Rastreabilidade"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ponto_de_vista"/>
+        <Class IRI="#Ponto_de_Vista"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+        <Class IRI="#Processo_de_Gerenciamento_de_Mudanças_de_Requisitos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
@@ -250,6 +250,9 @@
         <Class IRI="#Requisito_Funcional"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Requisito_Não_Funcional"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Requisito_de_Domínio"/>
     </Declaration>
     <Declaration>
@@ -259,16 +262,13 @@
         <Class IRI="#Requisito_de_Usuário"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Requisito_não_Funcional"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Requisitos_Específicos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Restrições"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Revisão_de_requisitos"/>
+        <Class IRI="#Revisão_dos_Requisitos"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sessões"/>
@@ -418,10 +418,10 @@
         <NamedIndividual IRI="#dados_persistentes"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#definicao_dos_requisitos"/>
+        <NamedIndividual IRI="#definicao_do_escopo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#definicao_escopo"/>
+        <NamedIndividual IRI="#definicao_dos_requisitos"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#definicoes_e_siglas"/>
@@ -607,9 +607,6 @@
         <NamedIndividual IRI="#restricoes"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#revisao_de_requisitos"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#revisao_dos_requisitos"/>
     </Declaration>
     <Declaration>
@@ -629,23 +626,23 @@
     </Declaration>
     <SubClassOf>
         <Class IRI="#Adaptabilidade"/>
-        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <Class IRI="#Caracterisrticas_Desejáveis"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Analista"/>
         <Class IRI="#Equipe_do_Projeto"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Análise_da_mudança_e_estimativa_de_custo"/>
-        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+        <Class IRI="#Análise_da_Mudança_e_Estimativa_de_Custo"/>
+        <Class IRI="#Processo_de_Gerenciamento_de_Mudanças_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Análise_do_problema_e_especificação_da_mudança"/>
-        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+        <Class IRI="#Análise_do_Problema_e_Especificação_da_Mudança"/>
+        <Class IRI="#Processo_de_Gerenciamento_de_Mudanças_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Apoio_de_ferramentas_CASE"/>
-        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+        <Class IRI="#Apoio_de_Ferramentas_CASE"/>
+        <Class IRI="#Planejamento_de_Gerenciamento_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Artefatos_de_Requisitos"/>
@@ -660,11 +657,11 @@
         <Class IRI="#Artefatos_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <Class IRI="#Caracterisrticas_Desejáveis"/>
         <Class IRI="#Engenharia_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Característica_dos_usuários"/>
+        <Class IRI="#Característica_dos_Usuários"/>
         <Class IRI="#Descrição_Geral_do_Produto"/>
     </SubClassOf>
     <SubClassOf>
@@ -676,31 +673,31 @@
         <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Classes_persistentes"/>
-        <Class IRI="#Requisito_não_Funcional"/>
+        <Class IRI="#Classes_Persistentes"/>
+        <Class IRI="#Requisito_Não_Funcional"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Classificação_dos_requisitos"/>
+        <Class IRI="#Classificação_dos_Requisitos"/>
         <Class IRI="#Atividades"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cliente"/>
-        <Class IRI="#Stakeholders"/>
+        <Class IRI="#Equipe_do_Projeto"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
         <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Dados_persistentes"/>
-        <Class IRI="#Requisito_não_Funcional"/>
+        <Class IRI="#Dados_Persistentes"/>
+        <Class IRI="#Requisito_Não_Funcional"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Definição_do_escopo"/>
+        <Class IRI="#Definição_do_Escopo"/>
         <Class IRI="#Atividades"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Definição_dos_requisitos"/>
+        <Class IRI="#Definição_dos_Requisitos"/>
         <Class IRI="#Atividades"/>
     </SubClassOf>
     <SubClassOf>
@@ -713,26 +710,26 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Desempenho"/>
-        <Class IRI="#Requisito_não_Funcional"/>
+        <Class IRI="#Requisito_Não_Funcional"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Desenvolvedor"/>
         <Class IRI="#Equipe_do_Projeto"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Detalhamento_dos_requisitos_de_interface"/>
+        <Class IRI="#Detalhamento_dos_Requisitos_Funcionais"/>
         <Class IRI="#Atividades"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Detalhamento_dos_requisitos_funcionais"/>
+        <Class IRI="#Detalhamento_dos_Requisitos_Não_Funcionais"/>
         <Class IRI="#Atividades"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Detalhamento_dos_requisitos_não_funcionais"/>
+        <Class IRI="#Detalhamento_dos_Requisitos_de_Interface"/>
         <Class IRI="#Atividades"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Determinação_do_contexto"/>
+        <Class IRI="#Determinação_do_Contexto"/>
         <Class IRI="#Atividades"/>
     </SubClassOf>
     <SubClassOf>
@@ -744,11 +741,11 @@
         <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Entrevista_aberta"/>
+        <Class IRI="#Entrevista_Aberta"/>
         <Class IRI="#Entrevista"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Entrevista_fechada"/>
+        <Class IRI="#Entrevista_Fechada"/>
         <Class IRI="#Entrevista"/>
     </SubClassOf>
     <SubClassOf>
@@ -764,7 +761,7 @@
         <Class IRI="#Artefatos_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Especificações_matemáticas"/>
+        <Class IRI="#Especificações_Matemáticas"/>
         <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
@@ -777,22 +774,22 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Facilidade_de_Compreensão"/>
-        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <Class IRI="#Caracterisrticas_Desejáveis"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Facilidade_de_verificação"/>
-        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <Class IRI="#Facilidade_de_Verificação"/>
+        <Class IRI="#Caracterisrticas_Desejáveis"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fechamento"/>
         <Class IRI="#Oficinas_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Funções_do_produto"/>
+        <Class IRI="#Funções_do_Produto"/>
         <Class IRI="#Descrição_Geral_do_Produto"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Geração_de_casos_de_teste"/>
+        <Class IRI="#Geração_de_Casos_de_Teste"/>
         <Class IRI="#Validação_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
@@ -809,26 +806,26 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Identificação_de_Requisitos"/>
-        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+        <Class IRI="#Planejamento_de_Gerenciamento_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Implementação_da_mudança"/>
-        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+        <Class IRI="#Implementação_da_Mudança"/>
+        <Class IRI="#Processo_de_Gerenciamento_de_Mudanças_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Informação_de_Suporte"/>
         <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Informações_de_rastreabilidade_da_origem"/>
+        <Class IRI="#Informações_de_Rastreabilidade_da_Origem"/>
         <Class IRI="#Políticas_de_Rastreabilidade"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Informações_de_rastreabilidade_de_projeto"/>
+        <Class IRI="#Informações_de_Rastreabilidade_de_Projeto"/>
         <Class IRI="#Políticas_de_Rastreabilidade"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Informações_de_rastreabilidade_de_requisitos"/>
+        <Class IRI="#Informações_de_Rastreabilidade_de_Requisitos"/>
         <Class IRI="#Políticas_de_Rastreabilidade"/>
     </SubClassOf>
     <SubClassOf>
@@ -836,11 +833,11 @@
         <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Linguagem_Natural_estruturada"/>
+        <Class IRI="#Linguagem_Natural_Estruturada"/>
         <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Linguagem_de_descrição_de_Projeto"/>
+        <Class IRI="#Linguagem_de_Descrição_de_Projeto"/>
         <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
@@ -852,7 +849,7 @@
         <Class IRI="#Artefatos_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Notações_gráficas"/>
+        <Class IRI="#Notações_Gráficas"/>
         <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
@@ -880,20 +877,20 @@
         <Class IRI="#Descrição_Geral_do_Produto"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+        <Class IRI="#Planejamento_de_Gerenciamento_de_Requisitos"/>
         <Class IRI="#Gerenciamento_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Políticas_de_Rastreabilidade"/>
-        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+        <Class IRI="#Planejamento_de_Gerenciamento_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Ponto_de_vista"/>
+        <Class IRI="#Ponto_de_Vista"/>
         <Class IRI="#Coleta_ou_Elicitação_e_Análise_de_Requisito"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
-        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+        <Class IRI="#Processo_de_Gerenciamento_de_Mudanças_de_Requisitos"/>
+        <Class IRI="#Planejamento_de_Gerenciamento_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
@@ -921,7 +918,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Rastreabilidade"/>
-        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <Class IRI="#Caracterisrticas_Desejáveis"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Requisito"/>
@@ -929,6 +926,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Requisito_Funcional"/>
+        <Class IRI="#Requisito_de_Sistema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requisito_Não_Funcional"/>
         <Class IRI="#Requisito_de_Sistema"/>
     </SubClassOf>
     <SubClassOf>
@@ -944,10 +945,6 @@
         <Class IRI="#Requisito"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Requisito_não_Funcional"/>
-        <Class IRI="#Requisito_de_Sistema"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Requisitos_Específicos"/>
         <Class IRI="#Especificação_dos_Requisitos_do_Software"/>
     </SubClassOf>
@@ -956,7 +953,7 @@
         <Class IRI="#Descrição_Geral_do_Produto"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Revisão_de_requisitos"/>
+        <Class IRI="#Revisão_dos_Requisitos"/>
         <Class IRI="#Validação_de_Requisitos"/>
     </SubClassOf>
     <SubClassOf>
@@ -982,24 +979,24 @@
     <DisjointClasses>
         <Class IRI="#Adaptabilidade"/>
         <Class IRI="#Facilidade_de_Compreensão"/>
-        <Class IRI="#Facilidade_de_verificação"/>
+        <Class IRI="#Facilidade_de_Verificação"/>
         <Class IRI="#Rastreabilidade"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Análise_da_mudança_e_estimativa_de_custo"/>
-        <Class IRI="#Análise_do_problema_e_especificação_da_mudança"/>
-        <Class IRI="#Implementação_da_mudança"/>
+        <Class IRI="#Análise_da_Mudança_e_Estimativa_de_Custo"/>
+        <Class IRI="#Análise_do_Problema_e_Especificação_da_Mudança"/>
+        <Class IRI="#Implementação_da_Mudança"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Apoio_de_ferramentas_CASE"/>
+        <Class IRI="#Apoio_de_Ferramentas_CASE"/>
         <Class IRI="#Identificação_de_Requisitos"/>
         <Class IRI="#Políticas_de_Rastreabilidade"/>
-        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+        <Class IRI="#Processo_de_Gerenciamento_de_Mudanças_de_Requisitos"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Artefatos_de_Requisitos"/>
         <Class IRI="#Atividades"/>
-        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <Class IRI="#Caracterisrticas_Desejáveis"/>
         <Class IRI="#Notações_para_Especificação_de_Requisitos"/>
         <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
         <Class IRI="#Requisito"/>
@@ -1013,8 +1010,8 @@
         <Class IRI="#Proposta_de_Especificação_do_Software"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Característica_dos_usuários"/>
-        <Class IRI="#Funções_do_produto"/>
+        <Class IRI="#Característica_dos_Usuários"/>
+        <Class IRI="#Funções_do_Produto"/>
         <Class IRI="#Hipóteses_de_Trabalho"/>
         <Class IRI="#Perspectiva_do_Produto"/>
         <Class IRI="#Restrições"/>
@@ -1024,11 +1021,11 @@
         <Class IRI="#Cenários"/>
         <Class IRI="#Entrevista"/>
         <Class IRI="#Etnografia"/>
-        <Class IRI="#Ponto_de_vista"/>
+        <Class IRI="#Ponto_de_Vista"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Classes_persistentes"/>
-        <Class IRI="#Dados_persistentes"/>
+        <Class IRI="#Classes_Persistentes"/>
+        <Class IRI="#Dados_Persistentes"/>
         <Class IRI="#Desempenho"/>
     </DisjointClasses>
     <DisjointClasses>
@@ -1056,14 +1053,14 @@
         <Class IRI="#Requisitos_Específicos"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Entrevista_aberta"/>
-        <Class IRI="#Entrevista_fechada"/>
+        <Class IRI="#Entrevista_Aberta"/>
+        <Class IRI="#Entrevista_Fechada"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Especificações_matemáticas"/>
-        <Class IRI="#Linguagem_Natural_estruturada"/>
-        <Class IRI="#Linguagem_de_descrição_de_Projeto"/>
-        <Class IRI="#Notações_gráficas"/>
+        <Class IRI="#Especificações_Matemáticas"/>
+        <Class IRI="#Linguagem_Natural_Estruturada"/>
+        <Class IRI="#Linguagem_de_Descrição_de_Projeto"/>
+        <Class IRI="#Notações_Gráficas"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Fechamento"/>
@@ -1071,14 +1068,14 @@
         <Class IRI="#Sessões"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Geração_de_casos_de_teste"/>
+        <Class IRI="#Geração_de_Casos_de_Teste"/>
         <Class IRI="#Prototipação"/>
-        <Class IRI="#Revisão_de_requisitos"/>
+        <Class IRI="#Revisão_dos_Requisitos"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Informações_de_rastreabilidade_da_origem"/>
-        <Class IRI="#Informações_de_rastreabilidade_de_projeto"/>
-        <Class IRI="#Informações_de_rastreabilidade_de_requisitos"/>
+        <Class IRI="#Informações_de_Rastreabilidade_da_Origem"/>
+        <Class IRI="#Informações_de_Rastreabilidade_de_Projeto"/>
+        <Class IRI="#Informações_de_Rastreabilidade_de_Requisitos"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Oficinas_de_Requisitos"/>
@@ -1090,7 +1087,7 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Requisito_Funcional"/>
-        <Class IRI="#Requisito_não_Funcional"/>
+        <Class IRI="#Requisito_Não_Funcional"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Requisito_de_Domínio"/>
@@ -1106,11 +1103,11 @@
         <NamedIndividual IRI="#adaptabilidade"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Análise_da_mudança_e_estimativa_de_custo"/>
+        <Class IRI="#Análise_da_Mudança_e_Estimativa_de_Custo"/>
         <NamedIndividual IRI="#analise_da_mudanca_e_estimativa_de_custo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Análise_do_problema_e_especificação_da_mudança"/>
+        <Class IRI="#Análise_do_Problema_e_Especificação_da_Mudança"/>
         <NamedIndividual IRI="#analise_do_problema_e_especificacao_da_mudanca"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1118,7 +1115,7 @@
         <NamedIndividual IRI="#anlista"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Apoio_de_ferramentas_CASE"/>
+        <Class IRI="#Apoio_de_Ferramentas_CASE"/>
         <NamedIndividual IRI="#apoio_de_ferramentas_case"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1134,11 +1131,11 @@
         <NamedIndividual IRI="#cadastro_dos_requisitos_do_software"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Característica_dos_usuários"/>
+        <Class IRI="#Característica_dos_Usuários"/>
         <NamedIndividual IRI="#caracteristica_dos_usuarios"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Caracterisrticas_desejáveis"/>
+        <Class IRI="#Caracterisrticas_Desejáveis"/>
         <NamedIndividual IRI="#caracteristicas_desejaveis"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1150,11 +1147,11 @@
         <NamedIndividual IRI="#cenarios"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Classes_persistentes"/>
+        <Class IRI="#Classes_Persistentes"/>
         <NamedIndividual IRI="#classes_persistentes"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Classificação_dos_requisitos"/>
+        <Class IRI="#Classificação_dos_Requisitos"/>
         <NamedIndividual IRI="#classificacao_dos_requisitos"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1166,16 +1163,16 @@
         <NamedIndividual IRI="#coleta_e_analise_de_requisitos"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Dados_persistentes"/>
+        <Class IRI="#Dados_Persistentes"/>
         <NamedIndividual IRI="#dados_persistentes"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Definição_dos_requisitos"/>
-        <NamedIndividual IRI="#definicao_dos_requisitos"/>
+        <Class IRI="#Definição_do_Escopo"/>
+        <NamedIndividual IRI="#definicao_do_escopo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Definição_do_escopo"/>
-        <NamedIndividual IRI="#definicao_escopo"/>
+        <Class IRI="#Definição_dos_Requisitos"/>
+        <NamedIndividual IRI="#definicao_dos_requisitos"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Definições_e_Siglas"/>
@@ -1194,19 +1191,19 @@
         <NamedIndividual IRI="#desenvolvedor"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Detalhamento_dos_requisitos_de_interface"/>
+        <Class IRI="#Detalhamento_dos_Requisitos_de_Interface"/>
         <NamedIndividual IRI="#detalahamento_dos_requisitos_de_interface"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Detalhamento_dos_requisitos_funcionais"/>
+        <Class IRI="#Detalhamento_dos_Requisitos_Funcionais"/>
         <NamedIndividual IRI="#detalhamento_dos_requisitos_funcionais"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Detalhamento_dos_requisitos_não_funcionais"/>
+        <Class IRI="#Detalhamento_dos_Requisitos_Não_Funcionais"/>
         <NamedIndividual IRI="#detalhamento_dos_requisitos_nao_funcionais"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Determinação_do_contexto"/>
+        <Class IRI="#Determinação_do_Contexto"/>
         <NamedIndividual IRI="#determinacao_do_contexto"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1214,11 +1211,11 @@
         <NamedIndividual IRI="#entrevista"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Entrevista_aberta"/>
+        <Class IRI="#Entrevista_Aberta"/>
         <NamedIndividual IRI="#entrevista_aberta"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Entrevista_fechada"/>
+        <Class IRI="#Entrevista_Fechada"/>
         <NamedIndividual IRI="#entrevista_fechada"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1234,7 +1231,7 @@
         <NamedIndividual IRI="#especificacao_dos_requisitos_do_sofwtare"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Especificações_matemáticas"/>
+        <Class IRI="#Especificações_Matemáticas"/>
         <NamedIndividual IRI="#especificacoes_matematicas"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1250,7 +1247,7 @@
         <NamedIndividual IRI="#facilidade_de_compreensao"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Facilidade_de_verificação"/>
+        <Class IRI="#Facilidade_de_Verificação"/>
         <NamedIndividual IRI="#facilidade_de_verificacao"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1258,11 +1255,11 @@
         <NamedIndividual IRI="#fechamento"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Funções_do_produto"/>
+        <Class IRI="#Funções_do_Produto"/>
         <NamedIndividual IRI="#funcoes_do_produto"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Geração_de_casos_de_teste"/>
+        <Class IRI="#Geração_de_Casos_de_Teste"/>
         <NamedIndividual IRI="#geracao_de_casos_de_teste"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1278,7 +1275,7 @@
         <NamedIndividual IRI="#identificacao_de_requisitos"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Implementação_da_mudança"/>
+        <Class IRI="#Implementação_da_Mudança"/>
         <NamedIndividual IRI="#implementacao_da_mudanca"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1286,15 +1283,15 @@
         <NamedIndividual IRI="#informacao_de_suporte"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Informações_de_rastreabilidade_de_projeto"/>
+        <Class IRI="#Informações_de_Rastreabilidade_de_Projeto"/>
         <NamedIndividual IRI="#informacoes_de_rastreabilidade_de_projeto"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Informações_de_rastreabilidade_de_requisitos"/>
+        <Class IRI="#Informações_de_Rastreabilidade_de_Requisitos"/>
         <NamedIndividual IRI="#informacoes_de_rastreabilidade_de_requisitos"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Informações_de_rastreabilidade_da_origem"/>
+        <Class IRI="#Informações_de_Rastreabilidade_da_Origem"/>
         <NamedIndividual IRI="#informacoes_de_restreabilidade_da_origem"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1302,11 +1299,11 @@
         <NamedIndividual IRI="#introducao"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Linguagem_de_descrição_de_Projeto"/>
+        <Class IRI="#Linguagem_de_Descrição_de_Projeto"/>
         <NamedIndividual IRI="#linguagem_de_descricao_de_projeto"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Linguagem_Natural_estruturada"/>
+        <Class IRI="#Linguagem_Natural_Estruturada"/>
         <NamedIndividual IRI="#linguagem_natural_estruturada"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1318,7 +1315,7 @@
         <NamedIndividual IRI="#modelo_de_analise_do_software"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Notações_gráficas"/>
+        <Class IRI="#Notações_Gráficas"/>
         <NamedIndividual IRI="#notacoes_graficas"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1346,7 +1343,7 @@
         <NamedIndividual IRI="#perspectiva_do_produto"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Planejamento_de_gerenciamento_de_requisitos"/>
+        <Class IRI="#Planejamento_de_Gerenciamento_de_Requisitos"/>
         <NamedIndividual IRI="#planejamento_de_gerenciamento_de_requisitos"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1354,11 +1351,11 @@
         <NamedIndividual IRI="#politicas_de_rastreabilidade"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Ponto_de_vista"/>
+        <Class IRI="#Ponto_de_Vista"/>
         <NamedIndividual IRI="#ponto_de_vista"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Processo_de_gerenciamento_de_mudanças_de_requisitos"/>
+        <Class IRI="#Processo_de_Gerenciamento_de_Mudanças_de_Requisitos"/>
         <NamedIndividual IRI="#processo_de_gerenciamento_de_mudancas_de_requisitos"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1410,7 +1407,7 @@
         <NamedIndividual IRI="#requisito_funcional"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Requisito_não_Funcional"/>
+        <Class IRI="#Requisito_Não_Funcional"/>
         <NamedIndividual IRI="#requisito_nao_funcional"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1422,8 +1419,8 @@
         <NamedIndividual IRI="#restricoes"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Revisão_de_requisitos"/>
-        <NamedIndividual IRI="#revisao_de_requisitos"/>
+        <Class IRI="#Revisão_dos_Requisitos"/>
+        <NamedIndividual IRI="#revisao_dos_requisitos"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sessões"/>
@@ -1446,9 +1443,9 @@
         <NamedIndividual IRI="#visao_geral_deste_documento"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#atuaSobre"/>
-        <NamedIndividual IRI="#atividades"/>
-        <NamedIndividual IRI="#requisito"/>
+        <ObjectProperty IRI="#ehProduzidoPor"/>
+        <NamedIndividual IRI="#artefatos_de_requisitos"/>
+        <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#pertenceA"/>
@@ -1456,14 +1453,19 @@
         <NamedIndividual IRI="#requisito"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#avalia"/>
-        <NamedIndividual IRI="#cliente"/>
-        <NamedIndividual IRI="#revisao_de_requisitos"/>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <NamedIndividual IRI="#classificacao_dos_requisitos"/>
+        <NamedIndividual IRI="#requisito"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#coopera"/>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <NamedIndividual IRI="#classificacao_dos_requisitos"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#avalia"/>
         <NamedIndividual IRI="#cliente"/>
-        <NamedIndividual IRI="#atividades"/>
+        <NamedIndividual IRI="#revisao_dos_requisitos"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#coopera"/>
@@ -1476,9 +1478,14 @@
         <NamedIndividual IRI="#determinacao_do_contexto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#faz"/>
+        <ObjectProperty IRI="#coopera"/>
         <NamedIndividual IRI="#cliente"/>
-        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#definicao_do_escopo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#seComunicaPor"/>
+        <NamedIndividual IRI="#cliente"/>
+        <NamedIndividual IRI="#linguagem_natural_estruturada"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ehCooperadoPor"/>
@@ -1491,9 +1498,59 @@
         <NamedIndividual IRI="#equipe_do_projeto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehCooperadoPor"/>
+        <NamedIndividual IRI="#definicao_do_escopo"/>
+        <NamedIndividual IRI="#cliente"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <NamedIndividual IRI="#definicao_do_escopo"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#gera"/>
+        <NamedIndividual IRI="#definicao_do_escopo"/>
+        <NamedIndividual IRI="#requisito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <NamedIndividual IRI="#definicao_dos_requisitos"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#gera"/>
         <NamedIndividual IRI="#definicao_dos_requisitos"/>
+        <NamedIndividual IRI="#requisito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <NamedIndividual IRI="#detalahamento_dos_requisitos_de_interface"/>
+        <NamedIndividual IRI="#requisito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <NamedIndividual IRI="#detalahamento_dos_requisitos_de_interface"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_funcionais"/>
         <NamedIndividual IRI="#requisito_funcional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_funcionais"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_nao_funcionais"/>
+        <NamedIndividual IRI="#requisito_nao_funcional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehRealizadoPor"/>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_nao_funcionais"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ehColaboradoPor"/>
@@ -1506,6 +1563,11 @@
         <NamedIndividual IRI="#cliente"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#gera"/>
+        <NamedIndividual IRI="#determinacao_do_contexto"/>
+        <NamedIndividual IRI="#requisito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#colabora"/>
         <NamedIndividual IRI="#equipe_do_projeto"/>
         <NamedIndividual IRI="#determinacao_do_contexto"/>
@@ -1513,7 +1575,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#colabora"/>
         <NamedIndividual IRI="#equipe_do_projeto"/>
-        <NamedIndividual IRI="#revisao_de_requisitos"/>
+        <NamedIndividual IRI="#revisao_dos_requisitos"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#executa"/>
@@ -1521,9 +1583,64 @@
         <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#produz"/>
+        <ObjectProperty IRI="#faz"/>
         <NamedIndividual IRI="#equipe_do_projeto"/>
-        <NamedIndividual IRI="#artefatos_de_requisitos"/>
+        <NamedIndividual IRI="#coleta_e_analise_de_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#realiza"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#definicao_dos_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#realiza"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_nao_funcionais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#realiza"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#detalahamento_dos_requisitos_de_interface"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#realiza"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#classificacao_dos_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#realiza"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_funcionais"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#realiza"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#definicao_do_escopo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utiliza"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <NamedIndividual IRI="#notacoes_para_especificacao_de_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehFormaDeComunicacao"/>
+        <NamedIndividual IRI="#linguagem_natural_estruturada"/>
+        <NamedIndividual IRI="#cliente"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehFormaDeComunicacao"/>
+        <NamedIndividual IRI="#linguagem_natural_estruturada"/>
+        <NamedIndividual IRI="#patrocinador"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehUtilizadoPor"/>
+        <NamedIndividual IRI="#notacoes_para_especificacao_de_requisitos"/>
+        <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#seComunicaPor"/>
+        <NamedIndividual IRI="#patrocinador"/>
+        <NamedIndividual IRI="#linguagem_natural_estruturada"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ehExecutadoPor"/>
@@ -1531,14 +1648,49 @@
         <NamedIndividual IRI="#equipe_do_projeto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehUtilizadoPor"/>
+        <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
+        <NamedIndividual IRI="#tecnicas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#operaSobre"/>
         <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
         <NamedIndividual IRI="#requisito"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produz"/>
+        <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
+        <NamedIndividual IRI="#artefatos_de_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+        <NamedIndividual IRI="#requisito"/>
+        <NamedIndividual IRI="#definicao_do_escopo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+        <NamedIndividual IRI="#requisito"/>
+        <NamedIndividual IRI="#determinacao_do_contexto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehGeradoPor"/>
+        <NamedIndividual IRI="#requisito"/>
+        <NamedIndividual IRI="#definicao_dos_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ehModificadoPor"/>
         <NamedIndividual IRI="#requisito"/>
-        <NamedIndividual IRI="#atividades"/>
+        <NamedIndividual IRI="#revisao_dos_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <NamedIndividual IRI="#requisito"/>
+        <NamedIndividual IRI="#classificacao_dos_requisitos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <NamedIndividual IRI="#requisito"/>
+        <NamedIndividual IRI="#detalahamento_dos_requisitos_de_interface"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ehOperadoPor"/>
@@ -1551,19 +1703,19 @@
         <NamedIndividual IRI="#caracteristicas_desejaveis"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ehGeradoPor"/>
+        <ObjectProperty IRI="#ehModificadoPor"/>
         <NamedIndividual IRI="#requisito_funcional"/>
-        <NamedIndividual IRI="#definicao_dos_requisitos"/>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_funcionais"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ehAvaliadoPor"/>
-        <NamedIndividual IRI="#revisao_de_requisitos"/>
-        <NamedIndividual IRI="#cliente"/>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <NamedIndividual IRI="#requisito_nao_funcional"/>
+        <NamedIndividual IRI="#detalhamento_dos_requisitos_nao_funcionais"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#ehColaboradoPor"/>
-        <NamedIndividual IRI="#revisao_de_requisitos"/>
-        <NamedIndividual IRI="#equipe_do_projeto"/>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <NamedIndividual IRI="#revisao_dos_requisitos"/>
+        <NamedIndividual IRI="#requisito"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ehAvaliadoPor"/>
@@ -1574,6 +1726,11 @@
         <ObjectProperty IRI="#ehColaboradoPor"/>
         <NamedIndividual IRI="#revisao_dos_requisitos"/>
         <NamedIndividual IRI="#equipe_do_projeto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utiliza"/>
+        <NamedIndividual IRI="#tecnicas"/>
+        <NamedIndividual IRI="#processos_de_engenharia_de_requisitos"/>
     </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#atuaSobre"/>
@@ -1735,7 +1892,35 @@
         <ObjectProperty IRI="#atuaSobre"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#atuaSobre"/>
-            <Class IRI="#Atividades"/>
+            <Class IRI="#Classificação_dos_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atuaSobre"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_Funcionais"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atuaSobre"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_Não_Funcionais"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atuaSobre"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_de_Interface"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atuaSobre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atuaSobre"/>
+            <Class IRI="#Revisão_dos_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1760,10 +1945,24 @@
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehAvaliadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehAvaliadoPor"/>
+            <Class IRI="#Revisão_dos_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#ehColaboradoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehColaboradoPor"/>
-            <Class IRI="#Determinação_do_contexto"/>
+            <Class IRI="#Determinação_do_Contexto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehColaboradoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehColaboradoPor"/>
+            <Class IRI="#Revisão_dos_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1777,7 +1976,14 @@
         <ObjectProperty IRI="#ehCooperadoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehCooperadoPor"/>
-            <Class IRI="#Determinação_do_contexto"/>
+            <Class IRI="#Definição_do_Escopo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehCooperadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehCooperadoPor"/>
+            <Class IRI="#Determinação_do_Contexto"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1798,7 +2004,7 @@
         <ObjectProperty IRI="#ehFormaDeComunicacao"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehUtilizadoPor"/>
-            <Class IRI="#Linguagem_Natural_estruturada"/>
+            <Class IRI="#Linguagem_Natural_Estruturada"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1833,42 +2039,42 @@
         <ObjectProperty IRI="#ehRealizadoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehUtilizadoPor"/>
-            <Class IRI="#Classificação_dos_requisitos"/>
+            <Class IRI="#Classificação_dos_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ehRealizadoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehUtilizadoPor"/>
-            <Class IRI="#Definição_do_escopo"/>
+            <Class IRI="#Definição_do_Escopo"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ehRealizadoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehUtilizadoPor"/>
-            <Class IRI="#Definição_dos_requisitos"/>
+            <Class IRI="#Definição_dos_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ehRealizadoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehUtilizadoPor"/>
-            <Class IRI="#Detalhamento_dos_requisitos_de_interface"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_Funcionais"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ehRealizadoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehUtilizadoPor"/>
-            <Class IRI="#Detalhamento_dos_requisitos_funcionais"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_Não_Funcionais"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#ehRealizadoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehUtilizadoPor"/>
-            <Class IRI="#Detalhamento_dos_requisitos_não_funcionais"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_de_Interface"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1882,7 +2088,7 @@
         <ObjectProperty IRI="#ehUtilizadoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehUtilizadoPor"/>
-            <Class IRI="#Técnicas"/>
+            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1903,21 +2109,21 @@
         <ObjectProperty IRI="#gera"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#gera"/>
-            <Class IRI="#Definição_do_escopo"/>
+            <Class IRI="#Definição_do_Escopo"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#gera"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#gera"/>
-            <Class IRI="#Definição_dos_requisitos"/>
+            <Class IRI="#Definição_dos_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#gera"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#gera"/>
-            <Class IRI="#Determinação_do_contexto"/>
+            <Class IRI="#Determinação_do_Contexto"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1931,7 +2137,7 @@
         <ObjectProperty IRI="#pertenceA"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#pertenceA"/>
-            <Class IRI="#Caracterisrticas_desejáveis"/>
+            <Class IRI="#Caracterisrticas_Desejáveis"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1945,7 +2151,7 @@
         <ObjectProperty IRI="#produz"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#produz"/>
-            <Class IRI="#Equipe_do_Projeto"/>
+            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1980,7 +2186,7 @@
         <ObjectProperty IRI="#utiliza"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#utiliza"/>
-            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+            <Class IRI="#Técnicas"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
@@ -1991,10 +2197,31 @@
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#avalia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#avalia"/>
+            <Class IRI="#Revisão_dos_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#colabora"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#colabora"/>
-            <Class IRI="#Atividades"/>
+            <Class IRI="#Definição_do_Escopo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#colabora"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#colabora"/>
+            <Class IRI="#Determinação_do_Contexto"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#colabora"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#colabora"/>
+            <Class IRI="#Revisão_dos_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -2008,7 +2235,14 @@
         <ObjectProperty IRI="#coopera"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#coopera"/>
-            <Class IRI="#Determinação_do_contexto"/>
+            <Class IRI="#Definição_do_Escopo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#coopera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#coopera"/>
+            <Class IRI="#Determinação_do_Contexto"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -2064,28 +2298,56 @@
         <ObjectProperty IRI="#ehGeradoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehGeradoPor"/>
-            <Class IRI="#Definição_do_escopo"/>
+            <Class IRI="#Definição_do_Escopo"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#ehGeradoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehGeradoPor"/>
-            <Class IRI="#Definição_dos_requisitos"/>
+            <Class IRI="#Definição_dos_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#ehGeradoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehGeradoPor"/>
-            <Class IRI="#Determinação_do_contexto"/>
+            <Class IRI="#Determinação_do_Contexto"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#ehModificadoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehModificadoPor"/>
-            <Class IRI="#Atividades"/>
+            <Class IRI="#Classificação_dos_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehModificadoPor"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_Funcionais"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehModificadoPor"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_Não_Funcionais"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehModificadoPor"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_de_Interface"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehModificadoPor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehModificadoPor"/>
+            <Class IRI="#Revisão_dos_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -2099,7 +2361,7 @@
         <ObjectProperty IRI="#ehProduzidoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehProduzidoPor"/>
-            <Class IRI="#Equipe_do_Projeto"/>
+            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -2120,7 +2382,7 @@
         <ObjectProperty IRI="#ehUtilizadoPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehUtilizadoPor"/>
-            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
+            <Class IRI="#Técnicas"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -2162,7 +2424,7 @@
         <ObjectProperty IRI="#possui"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#possui"/>
-            <Class IRI="#Caracterisrticas_desejáveis"/>
+            <Class IRI="#Caracterisrticas_Desejáveis"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -2176,49 +2438,49 @@
         <ObjectProperty IRI="#realiza"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#realiza"/>
-            <Class IRI="#Classificação_dos_requisitos"/>
+            <Class IRI="#Classificação_dos_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#realiza"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#realiza"/>
-            <Class IRI="#Definição_do_escopo"/>
+            <Class IRI="#Definição_do_Escopo"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#realiza"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#realiza"/>
-            <Class IRI="#Definição_dos_requisitos"/>
+            <Class IRI="#Definição_dos_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#realiza"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#realiza"/>
-            <Class IRI="#Detalhamento_dos_requisitos_de_interface"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_Funcionais"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#realiza"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#realiza"/>
-            <Class IRI="#Detalhamento_dos_requisitos_funcionais"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_Não_Funcionais"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#realiza"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#realiza"/>
-            <Class IRI="#Detalhamento_dos_requisitos_não_funcionais"/>
+            <Class IRI="#Detalhamento_dos_Requisitos_de_Interface"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#seComunicaPor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#ehUtilizadoPor"/>
-            <Class IRI="#Linguagem_Natural_estruturada"/>
+            <Class IRI="#Linguagem_Natural_Estruturada"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -2232,7 +2494,7 @@
         <ObjectProperty IRI="#utiliza"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#utiliza"/>
-            <Class IRI="#Técnicas"/>
+            <Class IRI="#Processos_de_Engenharia_de_Requisitos"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <AnnotationAssertion>
